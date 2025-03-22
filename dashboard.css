@@ -1,0 +1,94 @@
+/* dashboard.css */
+
+/* Global font and background */
+html, body, [class*="st-"] {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f7f9fc;
+    color: #1f2937;
+}
+
+/* Header styling */
+h1, h2, h3 {
+    color: #1e3a8a;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/* Sidebar customization */
+.stSidebar {
+    background-color: #1e40af !important;
+    color: white !important;
+}
+
+/* Sidebar titles */
+.stSidebar h1, .stSidebar h2, .stSidebar h3 {
+    color: white !important;
+}
+
+/* Buttons and inputs */
+button, .stButton > button {
+    background-color: #1d4ed8 !important;
+    color: white !important;
+    border-radius: 8px;
+    padding: 6px 16px;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover, .stButton > button:hover {
+    background-color: #2563eb !important;
+}
+
+/* Table Styling */
+table {
+    border-radius: 8px;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+thead tr {
+    background-color: #3b82f6;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e0f2fe;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f8fafc;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+/* Visual alert boxes */
+.alert-box {
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.alert-low {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.alert-medium {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.alert-high {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
+
+/* Section separator */
+.section-divider {
+    border-bottom: 2px solid #1e3a8a;
+    margin: 30px 0;
+}
